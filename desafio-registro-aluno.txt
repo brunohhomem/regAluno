@@ -1,0 +1,44 @@
+Instruções
+Objetivo: Este exercício visa desenvolver um programa em C que gerencia o registro de alunos
+em uma universidade. O programa permitirá a entrada, armazenamento, consulta, edição e
+exclusão de dados dos alunos
+
+Requisitos:
+
++ O programa deve criar e utilizar uma estrutura de dados para armazenar informações do aluno,
+como nome, matrícula, curso e data de nascimento
++ O programa deve oferecer um menu interativo com as seguintes opções:
+
+1. Adicionar novo aluno: Permitir a entrada dos dados do aluno e adicionar o novo registro à
+estrutura de dados.
+
+2. Buscar aluno por nome: Solicitar o nome do aluno e buscar o registro correspondente na
+estrutura de dados. Se o aluno for encontrado, exibir seus dados completos. Caso contrário,
+informar que o aluno não foi encontrado
+
+3. Excluir aluno: Solicitar o nome ou matrícula do aluno e excluir o registro correspondente da
+estrutura de dados.
+
+4 Listar todos os alunos: Exibir os dados de todos os alunos cadastrados na estrutura de
+dados
+
+5. Editar dados de um aluno: Solicitar o nome ou matrícula do aluno e permitir a edição de
+seus dados, como nome, curso ou data de nascimento
+
+Implementação:
+
++ Utilize a linguagem de programação C para implementar o programa
+
++ Utilize uma estrutura de dados adequada para armazenar os dados dos alunos, como uma lista
+ou um vetor.
+
++ Implemente cada funcionalidade do menu de forma modular, utilizando funções separadas para
+cada tarefa.
+
+» Utilize funções auxiliares para tarefas como entrada de dados, validação e formatação de saída
+
+Dicas:
+
++ Utilize comentários para explicar o código e facilitar a compreensão.
++ Teste o programa com diferentes entradas para garantir seu funcionamento correto
+» Utilize ferramentas de depuração para identificar e corrigir erros
