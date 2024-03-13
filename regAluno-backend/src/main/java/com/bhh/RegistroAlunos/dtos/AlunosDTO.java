@@ -8,7 +8,7 @@ public record AlunosDTO (
         Long id,
         String nome,
         String matricula,
-        List<CursosDTO> cursos,
+        String cursos,
         LocalDate dataNasc,
         LocalDateTime createdAt
 ){
