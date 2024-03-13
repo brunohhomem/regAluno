@@ -1,10 +1,7 @@
 package com.bhh.RegistroAlunos.entities;
 
 import com.bhh.RegistroAlunos.dtos.CursosDTO;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jdk.jfr.Timestamp;
 import lombok.AllArgsConstructor;
@@ -30,6 +27,7 @@ public class Cursos {
     private Boolean inativo;
     @Timestamp
     @DateTimeFormat(pattern = "dd/MM/yyyy")
+    @Column(name = "createdat")
     private LocalDateTime createdAt;
 
     public Cursos (CursosDTO dto) {
